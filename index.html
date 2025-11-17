@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Australia Young Leaders Academy CO,LTD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        { "imports": { "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/", "react/": "https://aistudiocdn.com/react@^19.2.0/", "react": "https://aistudiocdn.com/react@^19.2.0" } }
+    </script>
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+    <div id="root" class="bg-white text-[#002B49] min-h-screen">
+
+        <!-- Header -->
+        <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent text-white">
+            <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-4 sm:px-6 lg:px-8">
+                <a href="#" aria-label="Go to top of page">
+                    <div id="logo" class="font-bold text-4xl md:text-5xl text-white transition-colors duration-300">
+                        AYLA
+                    </div>
+                </a>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="nav-link text-lg font-medium hover:text-[#009FDF] transition-colors duration-300 text-white">About</a>
+                    <a href="#mission-vision" class="nav-link text-lg font-medium hover:text-[#009FDF] transition-colors duration-300 text-white">Mission & Vision</a>
+                    <a href="#values" class="nav-link text-lg font-medium hover:text-[#009FDF] transition-colors duration-300 text-white">Values</a>
+                    <a href="#pillars" class="nav-link text-lg font-medium hover:text-[#009FDF] transition-colors duration-300 text-white">Pillars</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="menu-button" class="z-50 p-2 -mr-2 rounded-md focus:outline-none" aria-label="Toggle menu" aria-expanded="false">
+              <div class="space-y-2">
+                <span id="hamburger-line-1" class="block w-8 h-0.5 bg-white transition-transform duration-300 ease-in-out"></span>
+                <span id="hamburger-line-2" class="block w-8 h-0.5 bg-white transition-opacity duration-300 ease-in-out"></span>
+                <span id="hamburger-line-3" class="block w-8 h-0.5 bg-white transition-transform duration-300 ease-in-out"></span>
+              </div>
+            </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden absolute top-full left-0 w-full bg-white shadow-lg transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden">
+                <nav class="flex flex-col items-center space-y-4 py-4">
+                    <a href="#about" class="mobile-nav-link text-lg font-medium text-[#002B49] hover:text-[#009FDF] transition-colors duration-300 py-2">About</a>
+                    <a href="#mission-vision" class="mobile-nav-link text-lg font-medium text-[#002B49] hover:text-[#009FDF] transition-colors duration-300 py-2">Mission & Vision</a>
+                    <a href="#values" class="mobile-nav-link text-lg font-medium text-[#002B49] hover:text-[#009FDF] transition-colors duration-300 py-2">Values</a>
+                    <a href="#pillars" class="mobile-nav-link text-lg font-medium text-[#002B49] hover:text-[#009FDF] transition-colors duration-300 py-2">Pillars</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Cover Page -->
+        <div class="relative h-screen bg-cover bg-center text-white" style="background-image: url('/assets/image/222222222222222222.jpg')">
+            <div class="absolute inset-0 bg-[#002B49] bg-opacity-60"></div>
+            <div class="relative h-full flex flex-col items-center justify-center text-center p-4">
+            </div>
+            <div class="absolute bottom-10 left-1/2 -translate-x-1/2">
+                <svg class="w-8 h-8 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+            </div>
+        </div>
+
+        <main>
+            <!-- About Section -->
+            <section id="about" class="py-12 md:py-20">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="bg-[#009FDF] text-white p-6 md:p-10">
+                        <h3 class="text-3xl md:text-4xl font-bold">What is AYLA?</h3>
+                    </div>
+                    <div class="mt-8 grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-12 items-center">
+                        <div class="md:col-span-3 space-y-6 text-lg">
+                            <p>
+                                AYLA is a comprehensive education and leadership institution/group that integrates academic excellence, professional development, and sustainable growth. Through its three strategic pillars: Academic Excellence and Curriculum Integration, People, Systems,
+                                and Professional Development, and Growth, Partnership, and Sustainability. AYLA prepares learners and educators to thrive in a rapidly changing world. Guided by the values of Respect, Resilience, and Innovation, AYLA champions
+                                integrity, inclusiveness, collaboration, and excellence in every aspect of its work.
+                            </p>
+                            <p>
+                                Australia Young Leaders Academy (AYLA) is a Cambodia-based education and leadership organization that operates across three major business domains:
+                            </p>
+                        </div>
+                        <div class="md:col-span-2">
+                            <img src="/assets/image/ssssssssssssssssssssssssssssss.jpg" alt="Young leaders in a collaborative environment" class="rounded-lg shadow-lg w-full h-auto object-cover" />
+                        </div>
+                    </div>
+                    <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="bg-gray-100 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+                            <img src="/assets/image/qqqqqqqqqqqqqqqqqq.jpg" alt="Students in a modern classroom" class="w-full h-48 object-cover" />
+                            <div class="p-6">
+                                <h4 class="font-bold text-xl text-[#005398] mb-2">Education and School Franchising</h4>
+                                <p>AYLA develops and manages AYLA Schools and provides franchise support to partner schools under the AYLA network. These schools deliver a blended curriculum that integrates the Khmer National Curriculum, the Western Australian
+                                    Curriculum, and Chinese and enrichment programs, ensuring global competitiveness and local relevance.</p>
+                            </div>
+                        </div>
+                        <div class="bg-gray-100 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+                            <img src="/assets/image/222222222222222222.jpg" alt="Mentoring session in progress" class="w-full h-48 object-cover" />
+                            <div class="p-6">
+                                <h4 class="font-bold text-xl text-[#005398] mb-2">Programs and Services</h4>
+                                <p>AYLA offers specialized educational programs and services designed to enhance learning and professional growth, including: Mentoring and Leadership Programs, Mathematics, Khmer Literacy, Coding, and Digital Education, Academic
+                                    Competitions and Student Enrichment Activities, Teacher Training, Head-Hunting, and Professional Development Services through AYLA’s Quality Teaching Academy (QTA).</p>
+                            </div>
+                        </div>
+                        <div class="bg-gray-100 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+                            <img src="/assets/image/573344968_1366464561936396_8896414546672984135_n (1).jpg" alt="Students working with technology and robotics" class="w-full h-48 object-cover" />
+                            <div class="p-6">
+                                <h4 class="font-bold text-xl text-[#005398] mb-2">Innovation and Business Ventures</h4>
+                                <p>To promote sustainability and innovation, AYLA invests in and develops education-related products and business opportunities, such as: Smart Class Technology, Educational Content and Apps, Campus and Office Solutions, and
+                                    Consultancy and Partnership Projects in education, technology, and organizational development.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-12 bg-[#F18821] text-white p-6 md:p-10 rounded-lg">
+                        <h3 class="text-2xl md:text-3xl font-bold mb-4">AYLA Three-Pillar Strategic Plan (Nov, 2025–2029)</h3>
+                        <p>These pillars are essential because they provide a clear structure for achieving AYLA’s vision. They ensure that academic quality is consistent, teachers and systems are strong and professional, and the institution grows sustainably
+                            through collaboration and innovation. Together, they create a balanced framework that supports excellence, equity, and long-term educational and business success.</p>
+                        <ul class="list-disc list-inside space-y-2 mt-4 text-lg">
+                            <li>Pillar 1: Academic Excellence and Curriculum Integration (National, International, and Chinese), plus relevant extracurricular curricular.</li>
+                            <li>Pillar 2: People, Systems, and Professional Development</li>
+                            <li>Pillar 3: Growth, Partnership, and Sustainability</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mission/Vision Section -->
+            <section id="mission-vision">
+                <div class="flex justify-center">
+                    <div class="max-w-7xl w-full">
+                        <div class="bg-white text-[#005398] p-8 md:p-12 w-full">
+                            <h3 class="text-3xl font-bold mb-4">Our Vision</h3>
+                            <div class="text-lg md:text-xl">
+                                <p class="mb-4">To empower young leaders and educators who are globally competent, ethically grounded, and nationally committed.</p>
+                                <p class="mb-4">At AYLA, we believe in empowering Cambodia’s next generation to soar high and shine globally, while staying rooted in their culture, humility, and heart. Through quality education, digital innovation, and global collaboration,
+                                    we inspire young leaders and educators to think boldly, act kindly, and create change that uplifts communities.</p>
+                                <p>In doing so, AYLA envisions itself as a hub of transformative learning, where global ideas meet local wisdom, and where every learner is inspired to fly high while staying grounded in who they are and where they come from.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="max-w-7xl w-full">
+                        <div class="bg-[#005398] text-white p-8 md:p-12 w-full">
+                            <h3 class="text-3xl font-bold mb-4">Our Mission</h3>
+                            <div class="text-lg md:text-xl">
+                                <p>AYLA exists to nurture capable, compassionate, and globally minded young leaders through quality education, professional excellence, and sustainable growth. We are committed to fostering a culture of respect, resilience,
+                                    and innovation, where every learner and educator is guided by integrity, excellence, inclusiveness, collaboration, and responsibility.</p>
+                                <p class="mt-4">We integrate the Khmer National Curriculum with international standards, empowering teachers and leaders through continuous professional development and data-driven practices that promote creativity and lifelong learning.
+                                    Through strong partnerships, modern systems, and meaningful community engagement, AYLA strives to deliver world-class education that prepares students to thrive academically, socially, and ethically in a rapidly changing
+                                    world.
+                                </p>
+                                <p class="mt-4">Our mission is to ensure every learner, teacher, and campus across the AYLA–PSIS network grows with purpose, excellence, and integrity, advancing education that is soaring yet rooted in Cambodia and beyond.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Values Section -->
+            <section id="values" class="bg-white py-12 md:py-20">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="bg-[#009FDF] text-white p-6 md:p-8 w-full">
+                        <h2 class="text-3xl md:text-4xl font-bold">OUR VALUES</h2>
+                    </div>
+                    <div class="mt-12 text-center">
+                        <h3 class="text-2xl font-bold text-[#005398] mb-4">Core Values</h3>
+                        <div class="flex justify-center gap-4 flex-wrap">
+                            <div class="bg-gray-100 text-[#005398] font-semibold py-3 px-6 rounded-full text-lg">Respect</div>
+                            <div class="bg-gray-100 text-[#005398] font-semibold py-3 px-6 rounded-full text-lg">Resilience</div>
+                            <div class="bg-gray-100 text-[#005398] font-semibold py-3 px-6 rounded-full text-lg">Innovation</div>
+                        </div>
+                    </div>
+                    <div class="mt-12 text-center">
+                        <h3 class="text-2xl font-bold text-[#005398] mb-4">Sub-Core Values</h3>
+                        <div class="flex justify-center gap-4 flex-wrap">
+                            <div class="bg-gray-100 text-[#005398] font-semibold py-3 px-6 rounded-lg text-lg">Integrity</div>
+                            <div class="bg-gray-100 text-[#005398] font-semibold py-3 px-6 rounded-lg text-lg">Resilience</div>
+                            <div class="bg-gray-100 text-[#005398] font-semibold py-3 px-6 rounded-lg text-lg">Excellence</div>
+                            <div class="bg-gray-100 text-[#005398] font-semibold py-3 px-6 rounded-lg text-lg">Inclusiveness</div>
+                            <div class="bg-gray-100 text-[#005398] font-semibold py-3 px-6 rounded-lg text-lg">Innovation</div>
+                            <div class="bg-gray-100 text-[#005398] font-semibold py-3 px-6 rounded-lg text-lg">Collaboration</div>
+                            <div class="bg-gray-100 text-[#005398] font-semibold py-3 px-6 rounded-lg text-lg">Responsibility</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Goals/Pillars Section -->
+            <section id="pillars" class="bg-white py-12 md:py-20">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#005398]">AYLA Three-Pillar Strategic Plan In Detail</h2>
+                </div>
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+                    <!-- Pillar 1 -->
+                    <div>
+                        <div class="bg-[#009FDF] text-white p-6 md:p-8">
+                            <h2 class="text-3xl md:text-4xl font-bold">Pillar 1: Academic Excellence and Curriculum Integration</h2>
+                        </div>
+                        <div class="bg-[#005398] text-white p-8 md:p-12">
+                            <h3 class="text-xl font-semibold mb-6">Goal: <span class="font-normal">Deliver world-class, inclusive education through aligned curricula, effective teaching, and holistic student development across AYLA schools and any other school branches under AYLA.</span></h3>
+                        </div>
+                        <div class="overflow-x-auto shadow-md rounded-b-lg">
+                            <table class="min-w-full bg-white border-collapse">
+                                <thead class="bg-gray-100">
+                                    <tr>
+                                        <th class="text-left py-3 px-4 uppercase font-semibold text-sm text-[#005398] border-b">Strategic Focus</th>
+                                        <th class="text-left py-3 px-4 uppercase font-semibold text-sm text-[#005398] border-b">Key Actions</th>
+                                        <th class="text-left py-3 px-4 uppercase font-semibold text-sm text-[#005398] border-b">Performance Indicators (KPIs)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-4 px-4 font-semibold border-b w-1/4">Integrated Curriculum System</td>
+                                        <td class="py-4 px-4 border-b w-2/4">Align the Khmer National Curriculum with the Western Australian Curriculum, Chinese, and AYLA Enrichment Programs such as Digital/Robotic, Mathematics...</td>
+                                        <td class="py-4 px-4 border-b w-1/4">100% of the curriculum is mapped and approved; curriculum review every 2 years.</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-4 px-4 font-semibold border-b w-1/4">Quality Teaching Framework</td>
+                                        <td class="py-4 px-4 border-b w-2/4">Implement “I Do, We Do, You Do”, CPA model, and AYLA’s mentoring program and QTA teacher standards across campuses.</td>
+                                        <td class="py-4 px-4 border-b w-1/4">80% of teachers rated “Proficient” or higher by 2026.</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-4 px-4 font-semibold border-b w-1/4">Assessment and consistent Data Collection, and Analysis of Culture</td>
+                                        <td class="py-4 px-4 border-b w-2/4">Develop common assessment guidelines, grading systems, and reporting tools such as APP and LMS.</td>
+                                        <td class="py-4 px-4 border-b w-1/4">Quarterly data reports for each campus; 10% yearly improvement in student learning outcomes.</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-4 px-4 font-semibold border-b w-1/4">Inclusive and Global Learning</td>
+                                        <td class="py-4 px-4 border-b w-2/4">Strengthen bilingual (Khmer–English–Chinese) programs and global citizenship modules.</td>
+                                        <td class="py-4 px-4 border-b w-1/4">3 international partnerships per year; participation in global competitions and exchanges.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- Pillar 2 -->
+                    <div>
+                        <div class="bg-[#009FDF] text-white p-6 md:p-8">
+                            <h2 class="text-3xl md:text-4xl font-bold">Pillar 2: People, Systems, and Professional Development</h2>
+                        </div>
+                        <div class="bg-[#005398] text-white p-8 md:p-12">
+                            <h3 class="text-xl font-semibold mb-6">Goal: <span class="font-normal">Build a professional, data-driven, and accountable organization that supports teacher growth, staff leadership capacity, and operational efficiency.</span></h3>
+                        </div>
+                        <div class="overflow-x-auto shadow-md rounded-b-lg">
+                            <table class="min-w-full bg-white border-collapse">
+                                <thead class="bg-gray-100">
+                                    <tr>
+                                        <th class="text-left py-3 px-4 uppercase font-semibold text-sm text-[#005398] border-b">Strategic Focus</th>
+                                        <th class="text-left py-3 px-4 uppercase font-semibold text-sm text-[#005398] border-b">Key Actions</th>
+                                        <th class="text-left py-3 px-4 uppercase font-semibold text-sm text-[#005398] border-b">Performance Indicators (KPIs)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-4 px-4 font-semibold border-b w-1/4">Teacher Professional Growth: AYLA’s mentoring program and QTA</td>
+                                        <td class="py-4 px-4 border-b w-2/4">Launch AYLA’s Quality Teaching Academy to offer micro-credential and mentoring programs.</td>
+                                        <td class="py-4 px-4 border-b w-1/4">90% of teaching staff are trained annually; 70% complete the advanced module on LMS or the Course required.</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-4 px-4 font-semibold border-b w-1/4">Leadership Development</td>
+                                        <td class="py-4 px-4 border-b w-2/4">Establish leadership pipeline and induction for principals, heads, and coordinators.</td>
+                                        <td class="py-4 px-4 border-b w-1/4">100 % leadership team completes the capacity-building cycle through our training and LMS.</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-4 px-4 font-semibold border-b w-1/4">Digital Transformation</td>
+                                        <td class="py-4 px-4 border-b w-2/4">Combine and centralise our teaching through Online materials with actual classes. Centralize operations through Staff App (HR, attendance, timesheet, communication) and unified LMS and APP.</td>
+                                        <td class="py-4 px-4 border-b w-1/4">75% of teachers use them in their weekly classes by the end of 2026. 100% of staff use digital systems daily; 90% parents have access to their kids' app.</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-4 px-4 font-semibold border-b w-1/4">Monitoring, Evaluation, Assessment, and Learning (MEAL)</td>
+                                        <td class="py-4 px-4 border-b w-2/4">Implement a company-wide performance data dashboard.</td>
+                                        <td class="py-4 px-4 border-b w-1/4">Annual M&E reports published; 85% satisfaction from internal & external (parents) stakeholders. 85% of students met their learning expectation based on the standard test or end-of-year result, followed the curriculum
+                                            or course outline.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- Pillar 3 -->
+                    <div>
+                        <div class="bg-[#009FDF] text-white p-6 md:p-8">
+                            <h2 class="text-3xl md:text-4xl font-bold">Pillar 3: Growth, Partnership, and Sustainability</h2>
+                        </div>
+                        <div class="bg-[#005398] text-white p-8 md:p-12">
+                            <h3 class="text-xl font-semibold mb-6">Goal: <span class="font-normal">Expand AYLA’s impact through sustainable business models, strategic partnerships, and diversified education services and other business opportunities.</span></h3>
+                        </div>
+                        <div class="overflow-x-auto shadow-md rounded-b-lg">
+                            <table class="min-w-full bg-white border-collapse">
+                                <thead class="bg-gray-100">
+                                    <tr>
+                                        <th class="text-left py-3 px-4 uppercase font-semibold text-sm text-[#005398] border-b">Strategic Focus</th>
+                                        <th class="text-left py-3 px-4 uppercase font-semibold text-sm text-[#005398] border-b">Key Actions</th>
+                                        <th class="text-left py-3 px-4 uppercase font-semibold text-sm text-[#005398] border-b">Performance Indicators (KPIs)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-4 px-4 font-semibold border-b w-1/4">Campus and Program Expansion</td>
+                                        <td class="py-4 px-4 border-b w-2/4">Launch new campuses (Battambang, Phnom Penh, and Siem Reap or other places) and specialized programs (STEM, Digital, ELiF, Math Program).</td>
+                                        <td class="py-4 px-4 border-b w-1/4">2 new campuses by 2027; 20% increase in student enrollment and 3% drop out yearly.</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-4 px-4 font-semibold border-b w-1/4">Partnerships and Branding</td>
+                                        <td class="py-4 px-4 border-b w-2/4">Strengthen collaboration with SCSA, Local, International Universities, INGOs, and universities.</td>
+                                        <td class="py-4 px-4 border-b w-1/4">5 formal MOUs; AYLA recognized as a regional education hub.</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-4 px-4 font-semibold border-b w-1/4">Business Development and Innovation</td>
+                                        <td class="py-4 px-4 border-b w-2/4">Develop teacher supply and training services, an online learning app, and a consultancy hub.</td>
+                                        <td class="py-4 px-4 border-b w-1/4">3 new business units launched; 25% of annual revenue from non-school services.</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-4 px-4 font-semibold border-b w-1/4">Financial and Operational Sustainability</td>
+                                        <td class="py-4 px-4 border-b w-2/4">Introduce transparent budgeting, fee structure, and investment plan.</td>
+                                        <td class="py-4 px-4 border-b w-1/4">Annual balanced budget; 10-15% growth in financial reserves each year.</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="py-4 px-4 font-semibold border-b w-1/4">Other business</td>
+                                        <td class="py-4 px-4 border-b w-2/4">Develop and invest in other business opportunities in the available markets.</td>
+                                        <td class="py-4 px-4 border-b w-1/4">3 new business units launched; 25-30% of annual revenue generated.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <!-- Footer -->
+        <footer class="bg-white py-12 md:py-20 border-t">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <div class="flex justify-center">
+                    <div class="font-bold text-4xl md:text-5xl text-[#005398]">AYLA</div>
+                </div>
+                <p class="mt-2 text-center text-sm md:text-base text-[#005398]">Australia Young Leaders Academy</p>
+                <div class="mt-6 flex justify-center space-x-6">
+                    <a href="https://www.facebook.com/pyli.btb/photos" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook" class="text-[#005398] hover:text-[#009FDF] transition-colors duration-300">
+                        <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.675 0h-21.35C.589 0 0 .589 0 1.325v21.35C0 23.411.589 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h5.713c.737 0 1.325-.589 1.325-1.325V1.325C24 .589 23.411 0 22.675 0z"/>
+              </svg>
+                    </a>
+                    <a href="https://twitter.com/AylaEducation" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter" class="text-[#005398] hover:text-[#009FDF] transition-colors duration-300">
+                        <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/ayla-education" target="_blank" rel="noopener noreferrer" aria-label="Follow us on LinkedIn" class="text-[#005398] hover:text-[#009FDF] transition-colors duration-300">
+                        <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+                    </a>
+                    <a href="https://www.instagram.com/aylaeducation" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram" class="text-[#005398] hover:text-[#009FDF] transition-colors duration-300">
+                        <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664 4.771 4.919-4.919C8.356 2.175 8.734 2.163 12 2.163zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.059 1.689.073 4.948.073s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98C8.334.014 7.941 0 12 0zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44-.645-1.44-1.441-1.44z"/>
+                </svg>
+                    </a>
+                </div>
+                <p class="text-xs text-gray-500 mt-8">
+                    © 2024 AYLA. All Rights Reserved.
+                </p>
+            </div>
+        </footer>
+
+        <!-- Scroll To Top Button -->
+        <button id="scroll-to-top" class="hidden fixed bottom-5 right-5 z-50 p-3 rounded-full bg-[#009FDF] text-white shadow-lg hover:bg-[#005398] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#009FDF] transition-all duration-300 ease-in-out"
+            aria-label="Go to top">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+        </svg>
+      </button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
